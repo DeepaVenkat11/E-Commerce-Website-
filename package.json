@@ -1,0 +1,25 @@
+{
+  "name": "e-commerce-website-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepaVenkat11/E-Commerce-Website-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeepaVenkat11/E-Commerce-Website-/issues"
+  },
+  "homepage": "https://github.com/DeepaVenkat11/E-Commerce-Website-#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.4.0"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
