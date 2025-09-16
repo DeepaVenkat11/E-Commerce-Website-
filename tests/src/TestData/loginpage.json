@@ -1,5 +1,10 @@
 {
     "sauceDemoUrl": "https://www.saucedemo.com",
     "sauceDemoUsername": "standard_user",
-    "sauceDemoPassword": "secret_sauce"
+    "sauceDemoPassword": "secret_sauce",
+    "firstName": "Deepa",
+    "lastName":"Venkatesh",
+    "pinCode":"600100"
+
   }
+  
