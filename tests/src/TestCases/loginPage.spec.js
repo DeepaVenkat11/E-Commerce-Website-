@@ -16,3 +16,11 @@ test('Verify the complete flow of buying a product from the sauce lab applicatio
     await loginpage.checkoutFlow();
     await loginpage.fillingCheckoutInfo(loginData.firstName, loginData.lastName, loginData.pinCode)
 })
+test('Verify the user can remove the product that is added to the cart from the list page and cartpage', async({page})=>{
+    const loginpage = new loginPage(page);
+    await loginpage.login(loginData.sauceDemoUrl, loginData.sauceDemoUsername, loginData.sauceDemoPassword);
+    await loginpage.verifyLogin();
+    await loginpage.addToCartFlow();
+    await loginpage.removeProductFromListingPage();
+    
+})

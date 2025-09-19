@@ -15,6 +15,8 @@ class LoginPageLocators {
       this.continue = page.locator("#continue");
       this.finish = page.locator("#finish");
       this.checkoutInfo = page.locator("#checkout_info_container");
+      this.continueShoppingBtn = page.getByTestId("continue-shopping");
+      this.removeProduct = page.getByTestId("remove-sauce-labs-backpack");
       
       
     }

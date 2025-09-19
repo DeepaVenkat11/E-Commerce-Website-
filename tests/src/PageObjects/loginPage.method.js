@@ -39,6 +39,21 @@ class loginPage {
         await this.locators.finish.click();
         await expect(this.locators.greetingsMessage("Thank you for your order!")).toBeVisible();
      }
+     async continueShopping(){
+        await this.locators.continueShoppingBtn.click();
+     }
+     async removeProductFromListingPage(){
+       await this.locators.removeProduct.click();
+     }
+     async verifyProduct(status){
+        if(status=="Visible"){
+            await expect(this.locators.productName("Sauce Labs Backpack")).toBeVisible();
+        }
+        else{
+            await expect(this.locators.productName("Sauce Labs Backpack")).not.toBeVisible();
+        }
+
+     }
 
 }
 
